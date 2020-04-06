@@ -32,15 +32,6 @@ object ApolloApiClient {
             .serverUrl(baseUrl)
             .okHttpClient(httpClient.build())
             .build()
-
-        /*
-        return Retrofit.Builder()
-            .baseUrl(baseUrl)
-            .addConverterFactory(MoshiConverterFactory.create())
-            .client(httpClient.build())
-            .build()
-
-         */
     }
 
     private fun getHeadersInterceptor(headers: Map<String, String>): Interceptor {
