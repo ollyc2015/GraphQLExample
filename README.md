@@ -16,7 +16,7 @@ This project uses the Apollo SDK - first, go to the [Apollo](https://www.apollog
 
 In regards to Downloading a schema.json file, the Apollo documentation states to run the following command: `./gradlew :module:downloadApolloSchema -Pcom.apollographql.apollo.endpoint=https://rickandmortyapi.com/graphql/ -Pcom.apollographql.apollo.schema=src/main/graphql/com/example/schema.json`
 
-If you're on a windows machine make sure you use the commond: `.\gradlew :module:downloadApolloSchema -Pcom.apollographql.apollo.endpoint=https://rickandmortyapi.com/graphql/ -Pcom.apollographql.apollo.schema=src/main/graphql/com/example/schema.json`
+If you're on a windows machine make sure you use `.\` at the beginining of the above commond, rather than `./`
 
 Please note, in the above command, you're putting your schema.json in the directory in the above command, so make sure it exists!
 
